@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		65B7CE721D0EEB4D00369FAE /* Emoji - Example 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Emoji - Example 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B7CE751D0EEB4D00369FAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		65B7CE7C1D0EEB7E00369FAE /* 📚.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "📚.h"; sourceTree = "<group>"; };
+		65B7CE7D1D0EED9D00369FAE /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		65B7CE7E1D0EEDEA00369FAE /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		65B7CE691D0EEB4D00369FAE = {
 			isa = PBXGroup;
 			children = (
+				65B7CE7E1D0EEDEA00369FAE /* LICENCE */,
+				65B7CE7D1D0EED9D00369FAE /* README.MD */,
 				65B7CE741D0EEB4D00369FAE /* Emoji - Example 1 */,
 				65B7CE731D0EEB4D00369FAE /* Products */,
 			);
@@ -58,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				65B7CE751D0EEB4D00369FAE /* main.cpp */,
+				65B7CE7C1D0EEB7E00369FAE /* 📚.h */,
 			);
 			path = "Emoji - Example 1";
 			sourceTree = "<group>";

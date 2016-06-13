@@ -1,15 +1,56 @@
-//
-//  main.cpp
-//  Emoji - Example 1
-//
-//  Created by Daniel Illescas Romero on 13/06/16.
-//  Copyright © 2016 Daniel Illescas Romero. All rights reserved.
-//
+#include "📚.h"
 
-#include <iostream>
+int 😄 = 👌🏽, 😡 = 👌🏽, n🐞 = 👌🏽, 💯 = 👆🏽👌🏽👌🏽;
 
-int main(int argc, const char * argv[]) {
-	// insert code here...
-	std::cout << "Hello, World!\n";
-    return 0;
+void program(){
+	😄++;
+	
+	if (🐞){
+		😡 += rd()%5;
+		n🐞++;
+	}
+}
+
+void 😴(){
+	😄++;
+	
+	😡 -= 5;
+	n🐞--; // Magic 🔮
+}
+
+int main() {
+	
+	string name = "Daniel";
+	string nationality = "🇪🇸";
+	string age = "🖐🏽🖐🏽🖐🏽🖕🏼🖕🏼🖕🏼🖕🏼";
+	string occupation = "📖💻";
+	
+	if (😕){
+		
+		while(😄 < 💯){
+			program();
+			
+			if (n🐞 > 100){
+				😅🔫;
+				😵;
+			}
+			else
+				😂;
+		}
+		
+		😌;
+		😴();
+	}
+	
+	
+	cout << "Name: " << name << '\n'
+	<< "Nationality: " << nationality << '\n'
+	<< "Age: " << age << '\n'
+	<< "Occupation: " << occupation << '\n'
+	<< "Happyness: " << 😄 << " 😄\n"
+	<< "Anger level: " << 😡 << " 😡\n"
+	<< "Bugs number: " << n🐞 << " 🐞\n" << endl;
+	
+	
+	return 👌🏽;
 }
