@@ -1,4 +1,7 @@
 # Emoji program 1
-C++ program using apple emojis ^^, with Xcode
+C++ program using apple emojis 😄
 
-· Code [screenshot](http://i.imgur.com/ICwvmx9.png)
+Code screenshot:
+----
+
+<img src="http://i.imgur.com/ICwvmx9.png" width=450>
